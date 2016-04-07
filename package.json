@@ -1,0 +1,53 @@
+{
+  "name": "angular-oauth",
+  "version": "1.0.0",
+  "description": "Angular OAuth2 Module",
+  "main": "./dist/angular-oauth.js",
+  "scripts": {
+    "test": "./node_modules/.bin/gulp test --browsers Chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyMyatt/AngularOAuth.git"
+  },
+  "keywords": [
+    "AngularJS",
+    "Authentication",
+    "OAuth2"
+  ],
+  "author": "Anthony Myatt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnthonyMyatt/AngularOAuth/issues"
+  },
+  "homepage": "https://github.com/AnthonyMyatt/AngularOAuth#readme",
+  "dependencies": {
+    "angular": "^1.4.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.3.9",
+    "github-changes": "^1.0.0",
+    "gulp": "^3.8.10",
+    "gulp-babel": "^5.3.0",
+    "gulp-concat": "^2.4.3",
+    "gulp-header": "^1.2.2",
+    "gulp-jshint": "^1.9.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.0.2",
+    "gulp-wrap-umd": "^0.2.1",
+    "jshint-stylish": "^1.0.0",
+    "karma": "^0.13.0",
+    "karma-browserify": "^2.0.0",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-firefox-launcher": "^0.1.4",
+    "karma-mocha": "^0.1.10",
+    "karma-mocha-reporter": "^0.3.1",
+    "karma-should": "0.0.1",
+    "karma-sinon": "^1.0.4",
+    "lodash": "^4.0.0",
+    "mocha": "^2.4.5",
+    "should": "^4.6.0",
+    "sinon": "^1.17.3",
+    "yargs": "^3.6.0"
+  }
+}
